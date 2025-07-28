@@ -4,7 +4,7 @@ import streamlit as st
 from advisor_agent import run_financial_advisor
 
 st.set_page_config(page_title="Financial Advisor AI", layout="centered")
-st.title("💡 Financial Advisor")
+st.title("🤓 Josh the Financial Advisor")
 
 # 1) User Profile Inputs
 with st.form("profile_form"):
