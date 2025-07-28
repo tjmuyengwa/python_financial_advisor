@@ -46,7 +46,7 @@ if submitted:
         "risk_tolerance": risk,
     }
 
-    with st.spinner("Consulting Gemini…"):
+    with st.spinner("Thinking…."):
         plan = run_financial_advisor(user_data)
 
     st.markdown("## Your Personalized Financial Plan")
